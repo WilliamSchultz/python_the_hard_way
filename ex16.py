@@ -12,7 +12,8 @@ print "Opening the file..."
 target= open(filename, 'w') #w stands for writing permission for the opened file
 
 print "Truncating the file. Goodbye!"
-target.truncate() #empties the file
+target.truncate() #empties the file. So does the 'w' in open. Truncate allows
+#to say how much of the file is deleted
 
 print "Now I'm going to ask you for three lines."
 
@@ -29,7 +30,7 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
-target.write(line1 + "\n" + line2 + "\n" + line3 + "\n") #condensed 
+target.write(line1 + "\n" + line2 + "\n" + line3 + "\n") #condensed
 
 print "And finally, we close it."
 target.close()

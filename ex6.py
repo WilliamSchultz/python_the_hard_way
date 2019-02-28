@@ -1,6 +1,8 @@
+# format specifiers
 # %s - String (or any object with a string representation, like numbers)
 # %d - Integers
 # %f - Floating point numbers
+# %r - representation of a string (exactly as is)
 
 x = "There are %d types of people." % 10
 binary = 'binary'
