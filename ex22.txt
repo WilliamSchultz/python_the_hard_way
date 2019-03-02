@@ -1,0 +1,96 @@
+Words and symbols so far
+
+print() -	The print function. Used to output text to the console.
+
+'	- Single quote. Used to encapsulate a single line string.
+
+"	- Double quote. Used to encapsulate a single line string.
+
+'''	- Triple quote. Used to encapsulate a multi-line string.
+
+#	Hash/Octothorpe/Pound sign - Used to denote a comment.
+
+%	Modulo sign / formatter - Used as modulo in mathematical operations (returns remainder after division).
+Also used as a formatter when using format strings
+
+*	Asterisk - Used for multiplication during mathematical operations.
+Also used when using *args in functions where you are not sure how many arguments you are passing to the function. Specifically, the * allows you to accept an arbitrary number of arguments.
+
+-	Hyphen - Used as a minus sign when performing subtraction in mathematical operations.
+
+/	Forward slash. Used as a division sign when performing mathematical operations.
+
++	Plus sign. Used as an addition sign during mathematical operations.
+Also used in loops as an iterator.
+Also used in shorthand such as += meaning 'equal to plus' e.g. a += b which can be written a = a+b
+
+=	Equals sign. Used to create variables or to set one value to equal another. can be paried with other operators like +.
+
+>	Greater than sign. Returns True if value on the left of the sign is greater than that on the right, else returns False.
+
+<	Less than sign. Returns True is value on the left is less than that on the right, else returns False.
+
+>=	Greater than or equal to sign. Returns True if value on the left of the sign is greater than or equal to that on the right, else returns False.
+
+<=	Less than or equal to sign. Returns True is value on the left is less than or equal to that on the right, else returns False.
+
+===	Comparison operator. Returns True if the value on the left is exactly the same as the value on the right. Else returns False.
+Can be used to compare strings, boolean operators, integers etc. Concerned with 'equality' and not 'sameness'. Concomitantly, distinct from is which checks if the values are literally refering to the same instance of a value.
+
+f""	f string. Python 3.6 syntax for handing format strings. Allows the inclusion of variables via the {} modifiers.
+
+{}	Curly brackets. Used in positional formatting when using format strings.
+
+.format()	Python 3 replacement for the % used in format strings. Has form '{} {}'.format('one', 'two').
+
+end=' '	Python 3 syntax for ending a line with a space rather than a linebreak. Python 2 would use , to achieve the same effect.
+
+join()	The method join() returns a string in which the elements passed to the string have been joined by a str operator. Example here.
+
+input()	Python 3 version of raw_input(). Receives an input from user via the keyboard. Not to be confused with input() available in Python 2 which tries to eval the input.
+from	Part of an import statement used to import external modules into a script. To fully explain this keyword read here, here and here
+
+import	Similar to from but is the 'meat' of the import statement.
+
+argv	Accepts a list of command line arguments passed to it when running a script. Must be imported from the sys module. Example here but you can also import using the form from sys import argv which will allow you to simply call the keyword argv and not the full path. Read more on import and from above for more detail on importing modules.
+
+open()	Opens a file and returns the corresponding file object.
+
+read()	Reads the contents of a file object.
+
+write()	Writes the contents of a string to a file.
+
+close()	Closes an open file object. Important to call this method and not leave it to the interpreter or you could risk unusual behaviour (though check the interpreter doesn't do it for you automatically or that too could ause an derror
+
+os.path	Module containing useful functions regarding pathnames.
+
+exists	Method/Function that is part of the os.path module which returns True if path given refers to an existing path or an open file descriptor.
+
+;	Semi-colon. Allows for 'compound statements' but that explanation there is a bit crazy so this stackoverflow post should give greater insight. Basically allows you to collapse statements onto one line.
+
+def	- Keyword meaning 'function definition' and used to create user defined function object. Put simply, this allows you to create your own functions (note functions are sometimes called methods).
+
+*args	- Allows a function to accept an arbitrary argument list. Used for when you don't know how many arguments are going to be passed to a function.
+
+seek()	The method seek() sets the file's current position at the offset. Default position is 0 so starts at the start of the file.
+
+readline()- Reads a single line from a file. A newline character is left at the end of the string so will automatically read the next line until the end of the file each time it's called.
+
+This further table details the escape sequences we encountered in the course so far.
+
+Escape example	What it does/escapes
+\\	Backslash ()
+\'	Single-quote (')
+\"	Double-quote (")
+\a	ASCII bell (BEL)
+\b	ASCII backspace (BS)
+\f	ASCII formfeed (FF)
+\n	ASCII linefeed (LF)
+\N{name}	Character named name in the Unicode database (Unicode only)
+\r	Carriage Return (CR)
+\t	Horizontal Tab (TAB)
+\uxxxx	Character with 16-bit hex value xxxx (Unicode only)
+\Uxxxxxxxx	Character with 32-bit hex value xxxxxxxx (Unicode only)
+\v	ASCII vertical tab (VT)
+\ooo	Character with octal value ooo
+\xhh	Character with hex value hh

@@ -1,3 +1,16 @@
+Git = version control system
+Repository/repo = source code
+
 git add .
 git commit -m "Commit message"
 git push origin master
+
+git status: Lists all new or modified files to be committed
+git remote -v: List the remote connections you have to other repositories.
+git log: see list history of commits
+touch README.md: To create a README file for the repository
+
+Python interpreter:
+enter: python
+version: python -V
+exit: exit()
