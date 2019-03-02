@@ -85,7 +85,7 @@ Escape example	What it does/escapes
 \a	ASCII bell (BEL)
 \b	ASCII backspace (BS)
 \f	ASCII formfeed (FF)
-\n	ASCII linefeed (LF)
+\n	ASCII linefeed (LF) - new line
 \N{name}	Character named name in the Unicode database (Unicode only)
 \r	Carriage Return (CR)
 \t	Horizontal Tab (TAB)

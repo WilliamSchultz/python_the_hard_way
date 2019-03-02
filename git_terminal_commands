@@ -3,7 +3,7 @@ Repository/repo = source code
 
 git add .
 git commit -m "Commit message"
-git push origin master
+git push origin master: will push the changes to the master branch of the primary repository database
 
 git status: Lists all new or modified files to be committed
 git remote -v: List the remote connections you have to other repositories.
