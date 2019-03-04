@@ -1,1 +1,1 @@
-Going through the exercises in Python the Hard Way (3rd Edition) by Zed Shaw
+Going through the exercises in Learn Python the Hard Way (3rd Edition) by Zed Shaw
