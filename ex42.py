@@ -2,7 +2,7 @@
 class Animal(object):
     pass
 
-## is-a animal 
+## is-a animal
 class Dog(Animal):
 
     def __init__(self, name):
@@ -25,6 +25,7 @@ class Person(object):
 
         ##Person has-a pet of some kind
         self.pet = None
+        self.fish = None
 
 ## is-a person
 class Employee(Person):
@@ -60,9 +61,8 @@ mary.pet = satan
 frank = Employee("Frank", 12000)
 
 frank.pet = rover
+frank.fish = "sammy"
 
-flipper = Fish()
-
-crouse = Salmon()
-
-harry = Halibut
+print frank.salary
+print frank.name
+print frank.fish 
